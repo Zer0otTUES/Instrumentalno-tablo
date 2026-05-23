@@ -1,9 +1,0 @@
-path: datasets/traffic-signs
-train: train/images
-val: val/images
-test: test/images
-
-nc: 9
-names: ['20-Speed', '30-speed', '40-Speed', '50-Speed', '60-Speed', '70-Speed', '80-Speed', 'Hump', 'Stop']
-
-# (optional metadata from Roboflow is fine to keep or remove)

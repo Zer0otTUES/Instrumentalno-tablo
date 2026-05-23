@@ -11,3 +11,13 @@ __pycache__/
 Thumbs.db
 .DS_Store
 *.log
+
+# Local datasets, trained weights, and generated training outputs.
+datasets/
+runs/
+*.pt
+*.onnx
+*.engine
+
+# Generated media/previews.
+dashboard_exact_preview.png
