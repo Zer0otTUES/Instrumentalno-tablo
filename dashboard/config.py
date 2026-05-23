@@ -48,9 +48,9 @@ BLINK_INTERVAL_MS = 450
 
 DASHBOARD_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = DASHBOARD_DIR.parent
-DEFAULT_MODEL_PATH = PROJECT_ROOT / "runs" / "detect" / "train2" / "weights" / "best.pt"
+DEFAULT_MODEL_PATH = Path(r"D:\diplomna_datasets\training_runs\speed_only_FULL_yolov8s_960-2\weights\best.pt")
 CAMERA_INDEX_CANDIDATES = (0, 1, 2)
-YOLO_CONFIDENCE = 0.35
-YOLO_IMAGE_SIZE = 640
+YOLO_CONFIDENCE = 0.20
+YOLO_IMAGE_SIZE = 960
 YOLO_DETECTION_INTERVAL_S = 0.20
 SIGN_HOLD_SECONDS = 2.0
